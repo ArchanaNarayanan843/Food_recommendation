@@ -35,7 +35,7 @@ opt=pd.DataFrame(option)
 image=pickle.load(open('image.pkl','rb'))
 img=pd.DataFrame(image)
 
-similarity= pickle.load(open('similarity.pkl','rb'))
+similarity= pickle.load(open('cos_similarity.pkl','rb'))
 
 st.title('Food Recommender System')
 
