@@ -37,7 +37,7 @@ img=pd.DataFrame(image)
 
 similarity= pickle.load(open('cos_similarity.pkl','rb'))
 
-st.title('Food Recommender System')
+st.title('Content Based Food Recommender System')
 
 selected_item_name=st.selectbox(
 'Which item do you prefer?',
